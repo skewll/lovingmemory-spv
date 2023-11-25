@@ -16,7 +16,7 @@
 
       <p>Sean was preceded in death by his grandparents, Lola and Hank Gumm.  He is survived by his parents, Lisa Vaughn and Doyle Vaughn Jr.; and his sons, Sylis and Sage.</p>
 
-      <p>Please visit the on-line memorial and sign the guestbook at <a href="www.danekasfuneralchapel.com">Danekas Funeral Chapel/</a>.</p>
+      <p>Please visit the on-line memorial and sign the guestbook at <a href="https://www.danekasfuneralchapel.com/obituary/sean-vaughn">Danekas Funeral Chapel/</a>.</p>
 
       <!-- CONTENT END -->
     </div>
