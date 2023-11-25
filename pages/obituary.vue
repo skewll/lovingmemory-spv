@@ -6,35 +6,18 @@
     <div class="section details">
       <!-- CONTENT START -->
       <h1 class="title">Obituary</h1>
-      <p><em>Thursday 28th January 2021</em> Due to COVID-19 the services are restricted in the number of people allowed. The plan is to live stream the services so everyone who wants to attend will be able to do so virtually. We will also hold a celebration of Lyns life later in the year when COVID-19 restrictions are relaxed.</p>
-      <p class="highlight">A Bit of important text that you want to stand out, such as any dressing requirements.</p>
-      <h2>Church Service <span>10:30am</span></h2>
-      <ul class="fa-ul">
-        <ListItem>Service starts at 10:30am at Church Address</ListItem>
-        <ListItem>Entrance music: And Can It Be</ListItem>
-        <ListItem>Scripture reading</ListItem>
-        <ListItem>Welcome &amp; Opening Prayer</ListItem>
-        <ListItem>Song: Goodness of God</ListItem>
-        <ListItem>Tributes - Family &amp; Friends</ListItem>
-        <ListItem>Few moments of quiet</ListItem>
-        <ListItem>Short message</ListItem>
-        <ListItem>Prayer of Commendation</ListItem>
-        <ListItem>Closing prayer &amp; Grace blessing</ListItem>
-        <ListItem>Exit music: New Wine</ListItem>
-      </ul>
-      <h2>Crematorium <span>12:00pm</span></h2>
-      <ul class="fa-ul">
-        <ListItem>Service starts at 12pm at Crematorium address</ListItem>
-        <ListItem>Entrance music: And Can It Be</ListItem>
-        <ListItem>Scripture reading - Psalm 61 v1-4</ListItem>
-        <ListItem>Welcome &amp; Opening Prayer</ListItem>
-        <ListItem>Tribute</ListItem>
-        <ListItem>Few moments of quiet</ListItem>
-        <ListItem>Short message</ListItem>
-        <ListItem>Committal</ListItem>
-        <ListItem>Closing prayer &amp; Grace blessing</ListItem>
-        <ListItem>Exit music: New Wine</ListItem>
-      </ul>
+      <p>Sean Paul Vauhn, age 37, passed away unexpectedly on September 14, 2023, in Kettle Falls, WA.  The son of Doyle Vaughn Jr. and Lisa (Gumm) Vaughn Jr, Sean was born on May 17, 1986 in Great Falls, Montana.</p>
+
+      <p>The son of an airman, Sean’s family would relocate to Sicily when he was three for a short time, returning to Airway Heights with his mother.  Sean grew up in Airway Heights and loved hanging out with all of his friends at the park.</p>
+
+      <p>In 2000, Sean and his mother would relocate to Kettle Falls, WA, where he would finish his education.  Sean returned to Airway Heights once he had finished his education, and here he would welcome two sons, Sylis and Sage.</p>
+
+      <p>Adventurous from his childhood, Sean was always at home doing anything outdoors.  From exploring in the woods and climbing trees in his youth, to going out camping for days on end with little more than the clothing on his back, Sean found great joy in nature.  Everything was an adventure with Sean; he loved digging for gold, kayaking, zip lining, and jumping on the trampoline, whether he was with his friends, sons or by himself.  He loved landscaping, especially helping his grandmother with her yard.  In addition to his landscaping work, he also did various construction and woodworking jobs throughout his adult years.  Sean was a rock hound at heart!</p>
+
+      <p>Sean was preceded in death by his grandparents, Lola and Hank Gumm.  He is survived by his parents, Lisa Vaughn and Doyle Vaughn Jr.; and his sons, Sylis and Sage.</p>
+
+      <p>Please visit the on-line memorial and sign the guestbook at <a href="www.danekasfuneralchapel.com">Danekas Funeral Chapel/</a>.</p>
+
       <!-- CONTENT END -->
     </div>
   </div>
