@@ -68,7 +68,7 @@ import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
     return {
       images: [],
       thumbs: [],
-      uploadEmailLink: config.uploadEmail
+      uploadEmailLink: config.uploadEmail,
       index: null
     };
   },
