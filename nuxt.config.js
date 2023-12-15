@@ -3,13 +3,17 @@ import { defineNuxtConfig } from '@nuxt/bridge'
 const name = 'Sean Paul Vaughn'
 const dates = 'May 17th 1986 - September 14th 2023'
 const fname = 'Sean'
+const uploadEmail = "upload@seanvaughn.com"
+const commentEmail = "comment@seanvaughn.com"
 
 export default defineNuxtConfig({
   bridge: false,
   publicRuntimeConfig: {
     name: name,
     dates: dates,
-    fname: fname
+    fname: fname,
+    uploadEmail: uploadEmail,
+    commentEmail: commentEmail
   },
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',

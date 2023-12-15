@@ -22,6 +22,7 @@
           :style="{ backgroundImage: 'url(' + image + ')' }"
         ></div>
       </div>
+      <p>*To upload images, please email photos or a zip file contianing photos to {{$config.uploadEmail}}
     </div>
   </div>
 </template>
