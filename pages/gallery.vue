@@ -29,8 +29,11 @@
       <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
         <a :href="`mailto:${config.uploadEmail}?subject=Upload`">{{$config.uploadEmail}}
       </p> -->
-            <p>*To upload to gallery, email photos or a zip file containing photos to 
+      <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
         <a :href="`mailto:' + config.uploadEmail + '?subject=Upload`">{{$config.uploadEmail}}
+      </p> -->
+      <p>*To upload to gallery, email photos or a zip file containing photos to 
+        <a :href="'mailto:' + config.uploadEmail + '?subject=Upload'">{{$config.uploadEmail}}
       </p>
     </div>
   </div>
