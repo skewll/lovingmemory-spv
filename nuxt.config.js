@@ -2,12 +2,14 @@ import { defineNuxtConfig } from '@nuxt/bridge'
 
 const name = 'Sean Paul Vaughn'
 const dates = 'May 17th 1986 - September 14th 2023'
+const fname = 'Sean'
 
-export default defineNuxtConfig ({
+export default defineNuxtConfig({
   bridge: false,
   publicRuntimeConfig: {
     name: name,
-    dates: dates
+    dates: dates,
+    fname: fname
   },
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -19,7 +21,7 @@ export default defineNuxtConfig ({
     },
     get title() {
       delete this.title
-      return this.title =  'In loving memory of ' + name
+      return this.title = 'In loving memory of ' + name
     },
     meta: [
       { charset: 'utf-8' },
