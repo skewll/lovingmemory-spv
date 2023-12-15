@@ -6,7 +6,7 @@
     <div class="section details">
       <!-- CONTENT START -->
       <h1 class="title">Obituary</h1>
-      <p>Sean Paul Vauhn, age 37, passed away unexpectedly on September 14, 2023, in Kettle Falls, WA.  The son of Doyle Vaughn Jr. and Lisa (Gumm) Vaughn Jr, Sean was born on May 17, 1986 in Great Falls, Montana.</p>
+      <p>Sean Paul Vaughn, age 37, passed away unexpectedly on September 14, 2023, in Kettle Falls, WA.  The son of Doyle Vaughn Jr. and Lisa (Gumm) Vaughn Jr, Sean was born on May 17, 1986 in Great Falls, Montana.</p>
 
       <p>The son of an airman, Sean’s family would relocate to Sicily when he was three for a short time, returning to Airway Heights with his mother.  Sean grew up in Airway Heights and loved hanging out with all of his friends at the park.</p>
 
