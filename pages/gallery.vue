@@ -5,7 +5,7 @@
     </div>
     <div class="section details">
       <!-- CONTENT START -->
-      <h1 class="title">Gallery</h1>
+      <h1 class="title">Photo Gallery</h1>
       <!-- CONTENT END -->
       <CoolLightBox 
         :items="images" 
@@ -22,7 +22,13 @@
           :style="{ backgroundImage: 'url(' + image + ')' }"
         ></div>
       </div>
-      <p>*To upload images, please email photos or a zip file contianing photos to {{$config.uploadEmail}}
+      <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
+        <a href="mailto:email@domain.com?subject=Upload&body=uploading">{{$config.uploadEmail}}
+          </a>
+      </p> -->
+      <p>
+        <a :href="`mailto:${config.uploadEmail}?subject=Upload`">{{$config.uploadEmail}}
+      </p>
     </div>
   </div>
 </template>
