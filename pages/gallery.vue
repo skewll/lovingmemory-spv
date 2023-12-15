@@ -22,10 +22,10 @@
           :style="{ backgroundImage: 'url(' + image + ')' }"
         ></div>
       </div>
-      <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
-        <a href="mailto:email@domain.com?subject=Upload&body=uploading">{{$config.uploadEmail}}
+      <p>*To upload to gallery, email photos or a zip file containing photos to 
+        <a href="mailto:upload@seanvaughn.com?subject=Upload">{{$config.uploadEmail}}
         </a>
-      </p> -->
+      </p>
       <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
         <a :href="`mailto:${{{$config.uploadEmail}}}?subject=Upload`">{{$config.uploadEmail}}</a>
       </p> DOESNT WORK--> 
@@ -41,9 +41,9 @@
       <!-- <p>
         <a :href="`mailto:${config.uploadEmail}`">{{$config.uploadEmail}}</a>
       </p> DOESNT WORK-->
-      <p>
-        <a :href="config.uploadEmail">{{$config.uploadEmail}}</a>
-      </p>
+      <!-- <p>
+        <a :href="$config.uploadEmail">{{$config.uploadEmail}}</a>
+      </p> -->
     </div>
   </div>
 </template>
