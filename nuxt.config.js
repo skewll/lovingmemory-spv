@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     dates: dates,
     fname: fname,
     uploadEmail: uploadEmail,
+    uploadEmailLink: `mailto:${uploadEmail}&subject=Upload`,
     commentEmail: commentEmail
   },
   // Target (https://go.nuxtjs.dev/config-target)
