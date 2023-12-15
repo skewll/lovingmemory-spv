@@ -26,7 +26,7 @@
         <a href="mailto:email@domain.com?subject=Upload&body=uploading">{{$config.uploadEmail}}
           </a>
       </p> -->
-      <p>
+      <p>*To upload to gallery, email photos or a zip file containing photos to 
         <a :href="`mailto:${config.uploadEmail}?subject=Upload`">{{$config.uploadEmail}}
       </p>
     </div>
