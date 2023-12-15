@@ -38,8 +38,11 @@
       <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
         <a :href="('mailto:' + config.uploadEmail + '?subject=Upload')">{{$config.uploadEmail}}</a>
       </p> DOESNT WORK-->
-      <p>
+      <!-- <p>
         <a :href="`mailto:${config.uploadEmail}`">{{$config.uploadEmail}}</a>
+      </p> DOESNT WORK-->
+      <p>
+        <a :href="config.uploadEmail">{{$config.uploadEmail}}</a>
       </p>
     </div>
   </div>
