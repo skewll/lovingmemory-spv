@@ -14,38 +14,12 @@
         <div class="image" v-for="(image, imageIndex) in thumbs" :key="imageIndex" @click="index = imageIndex"
           :style="{ backgroundImage: 'url(' + image + ')' }"></div>
       </div>
-      
-      <p>*To upload to gallery, email photos or a zip file containing photos to
-        <a href="mailto:upload@seanvaughn.com?subject=Upload">{{ $config.uploadEmail }}</a>
-        <!-- </p> this Works :-) -->
-      </p>
-      <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
-        <a :href="config.uploadEmailLink">{{$config.uploadEmail}}</a>
-      </p> THIS DOES NOT WORK -->
-      <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
-        <a :href="{{$config.uploadEmailLink}}">{{$config.uploadEmail}}</a>
-      </p> THIS DOES NOT WORK -->
-      <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
-        <a :href="uploadEmailLink">{{$config.uploadEmail}}</a>
-      </p> THIS DOESNT WORK -->
-      <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
-        <a :href="`mailto:${{{$config.uploadEmail}}}?subject=Upload`">{{$config.uploadEmail}}</a>
-      </p> DOESNT WORK-->
-      <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
-        <a :href="'mailto:' + config.uploadEmail + '?subject=Upload'">{{$config.uploadEmail}}</a>
-      </p>  DOESNT WORK-->
-      <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
-        <a :href="'mailto:' + config.uploadEmail + '?subject=Upload'">{{$config.uploadEmail}}</a>
-      </p> -->
-      <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
-        <a :href="('mailto:' + config.uploadEmail + '?subject=Upload')">{{$config.uploadEmail}}</a>
-      </p> DOESNT WORK-->
-      <!-- <p>
-        <a :href="`mailto:${config.uploadEmail}`">{{$config.uploadEmail}}</a>
-      </p> DOESNT WORK-->
-      <!-- <p>
-        <a :href="$config.uploadEmail">{{$config.uploadEmail}}</a>
-      </p> -->
+
+      <div class="thia">
+        <p>*To upload to gallery, email photos or a zip file containing photos to
+          <a :href="`mailto:${$config.uploadEmail}?subject=Upload`">{{ $config.uploadEmail }}</a>
+        </p>
+      </div>
     </div>
   </div>
 </template>
