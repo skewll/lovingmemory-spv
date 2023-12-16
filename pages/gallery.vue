@@ -7,24 +7,17 @@
       <!-- CONTENT START -->
       <h1 class="title">Photo Gallery</h1>
       <!-- CONTENT END -->
-      <CoolLightBox 
-        :items="images" 
-        :index="index"
-        @close="index = null">
+      <CoolLightBox :items="images" :index="index" @close="index = null">
       </CoolLightBox>
 
       <div class="images-wrapper">
-        <div
-          class="image"
-          v-for="(image, imageIndex) in thumbs"
-          :key="imageIndex"
-          @click="index = imageIndex"
-          :style="{ backgroundImage: 'url(' + image + ')' }"
-        ></div>
+        <div class="image" v-for="(image, imageIndex) in thumbs" :key="imageIndex" @click="index = imageIndex"
+          :style="{ backgroundImage: 'url(' + image + ')' }"></div>
       </div>
-      <p>*To upload to gallery, email photos or a zip file containing photos to 
-        <a href="mailto:upload@seanvaughn.com?subject=Upload">{{$config.uploadEmail}}</a>
-      <!-- </p> this Works :-) -->
+      
+      <p>*To upload to gallery, email photos or a zip file containing photos to
+        <a href="mailto:upload@seanvaughn.com?subject=Upload">{{ $config.uploadEmail }}</a>
+        <!-- </p> this Works :-) -->
       </p>
       <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
         <a :href="config.uploadEmailLink">{{$config.uploadEmail}}</a>
@@ -37,7 +30,7 @@
       </p> THIS DOESNT WORK -->
       <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
         <a :href="`mailto:${{{$config.uploadEmail}}}?subject=Upload`">{{$config.uploadEmail}}</a>
-      </p> DOESNT WORK--> 
+      </p> DOESNT WORK-->
       <!-- <p>*To upload to gallery, email photos or a zip file containing photos to 
         <a :href="'mailto:' + config.uploadEmail + '?subject=Upload'">{{$config.uploadEmail}}</a>
       </p>  DOESNT WORK-->
@@ -60,7 +53,7 @@
 <script>
 import CoolLightBox from 'vue-cool-lightbox'
 import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
- export default {
+export default {
   components: {
     CoolLightBox,
   },
@@ -92,29 +85,32 @@ import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
 
 <style lang="scss">
 .images-wrapper {
-    margin-bottom: 20px;
-    margin-right: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    @media screen and (max-width: 800px) {
-      justify-content: center;
-      width: calc(100% + 60px);
-      margin-left: -30px;
-      margin-bottom: 0px;
-    }
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  @media screen and (max-width: 800px) {
+    justify-content: center;
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    margin-bottom: 0px;
+  }
 }
+
 .images-wrapper .image {
-    cursor: pointer;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 3px;
-    width: 120px;
-    height: 120px;
-    @media screen and (max-width: 800px) {
-      width: 105px;
-      height: 105px;
-    }
+  cursor: pointer;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3px;
+  width: 120px;
+  height: 120px;
+
+  @media screen and (max-width: 800px) {
+    width: 105px;
+    height: 105px;
+  }
 }
 </style>
