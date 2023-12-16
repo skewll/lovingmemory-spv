@@ -15,7 +15,7 @@
           :style="{ backgroundImage: 'url(' + image + ')' }"></div>
       </div>
 
-      <div class="thia">
+      <div>
         <p>*To upload to gallery, email photos or a zip file containing photos to
           <a :href="`mailto:${$config.uploadEmail}?subject=Upload`">{{ $config.uploadEmail }}</a>
         </p>
