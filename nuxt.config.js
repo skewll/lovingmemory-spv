@@ -1,19 +1,25 @@
 import { defineNuxtConfig } from '@nuxt/bridge'
 
+
 const name = 'Sean Paul Vaughn'
 const dates = 'May 17th 1986 - September 14th 2023'
 const fname = 'Sean'
 const uploadEmail = "upload@seanvaughn.com"
 const commentEmail = "comment@seanvaughn.com"
+const effect = "waves" // Vatna.js effect
+
+
+
+
 
 export default defineNuxtConfig({
+
   bridge: false,
   publicRuntimeConfig: {
     name: name,
     dates: dates,
     fname: fname,
     uploadEmail: uploadEmail,
-    uploadEmailLink: `mailto:${uploadEmail}&subject=Upload`,
     commentEmail: commentEmail
   },
   // Target (https://go.nuxtjs.dev/config-target)
@@ -36,8 +42,16 @@ export default defineNuxtConfig({
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,700&family=Pinyon+Script&display=swap' }
-    ]
+    ],
+    // script: [
+    //   {
+    //     type: 'text/javascript',
+    //     src: 'assets/js/vanta.js',
+    //     body: true
+    //   },
+    // ]
   },
+
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
